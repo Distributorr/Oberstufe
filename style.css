@@ -1,0 +1,81 @@
+/* Das ist der CSS-Code, der das Design der Website bestimmt */
+
+/* Das ist die allgemeine Formatierung für alle Elemente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Das ist die Formatierung für den Kopfbereich */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Das ist die Formatierung für den Titel */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+/* Das ist die Formatierung für die Navigation */
+nav {
+    display: flex;
+}
+
+/* Das ist die Formatierung für die Liste der Links */
+ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Das ist die Formatierung für die einzelnen Links */
+li {
+    margin: 0 10px;
+}
+
+/* Das ist die Formatierung für die Links, wenn sie nicht angeklickt werden */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Das ist die Formatierung für die Links, wenn sie angeklickt werden */
+a:hover {
+    color: yellow;
+}
+
+/* Das ist die Formatierung für den Hauptinhalt */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Das ist die Formatierung für die Überschrift */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Das ist die Formatierung für das Bild */
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Das ist die Formatierung für den Fußbereich */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
